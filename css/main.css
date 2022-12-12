@@ -1,0 +1,185 @@
+/* lemonada-regular - latin */
+@font-face {
+    font-family: 'Lemonada';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/lemonada-v20-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/lemonada-v20-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* lemonada-500 - latin */
+@font-face {
+    font-family: 'Lemonada';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../fonts/lemonada-v20-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/lemonada-v20-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* lemonada-600 - latin */
+@font-face {
+    font-family: 'Lemonada';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+        url('../fonts/lemonada-v20-latin-600.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/lemonada-v20-latin-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* lemonada-700 - latin */
+@font-face {
+    font-family: 'Lemonada';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/lemonada-v20-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/lemonada-v20-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lemonada', monospace;
+}
+
+* {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.moviTitle {
+    margin: 50px 0;
+    color: rgb(52, 121, 98);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.formInput {
+    outline: none;
+    padding: 10px;
+    border: none;
+    border: 1px solid #000;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+select {
+    outline: none;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.card {
+    width: 380px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+    border: 1px solid #000;
+}
+
+#btn {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px 40px;
+    background-color: coral;
+    color: #fff;
+    transition: 0.2s;
+}
+
+#btn:hover {
+    background-color: burlywood;
+}
+
+.formImg {
+    width: 380px;
+    height: 380px;
+}
+
+#box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formtitle {
+    word-wrap: wrap;
+}
+
+.box {
+    padding: 20px;
+}
+
+.formLink {
+    text-decoration: none;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    background-color: green;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.formLink:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.id {
+    color: blueviolet;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    #form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .formInput {
+        margin-bottom: 20px;
+    }
+
+    select {
+        margin-bottom: 20px;
+    }
+}
